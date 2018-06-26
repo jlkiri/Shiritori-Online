@@ -1,0 +1,27 @@
+{
+  "name": "shiritori",
+  "version": "1.0.0",
+  "description": "Shiritori Online",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start": "NODE_ENV=production node server.js"
+  },
+  "keywords": [],
+  "author": "Kirill Vasiltsov",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^4.12.0",
+    "webpack-cli": "^3.0.6"
+  },
+  "dependencies": {
+    "express": "^4.16.3",
+    "helmet": "^3.12.1",
+    "request": "^2.87.0",
+    "serve-favicon": "^2.5.0",
+    "socket.io": "^2.1.1",
+    "redom": "^3.12.4",
+    "wanakana": "^4.0.1"
+  }
+}

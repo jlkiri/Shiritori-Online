@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+}
+
+*:focus {
+  outline: none;
+}
+
+html {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: rgb(22, 58, 78); 
+}
+
+body * {
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(241, 241, 241);
+}
+
+fieldset {
+  border: 2px solid rgb(255, 146, 3);
+  border-radius: 5px;
+  margin: 10px auto;
+  width: 60%;
+}
+
+legend {
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 19px;
+}
+
+h4 {
+  font-size: 15px;
+}
+
+p {
+  font-size: 15px;
+  font-weight: 300;
+}
+
+@media only screen and (max-width: 560px) {
+  fieldset {
+    width: 98%;
+  }
+}

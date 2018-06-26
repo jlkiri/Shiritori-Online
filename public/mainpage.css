@@ -1,0 +1,111 @@
+* {
+  box-sizing: border-box;
+}
+
+*:focus {
+  outline: none;
+}
+
+html {
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: linear-gradient(rgb(38, 100, 133),  rgb(22, 58, 78));
+}
+
+body * {
+  font-family: 'Montserrat', sans-serif;
+}
+
+header {
+  position: relative;
+  top: 20%;
+}
+
+.buttons {
+  text-align: center;
+  margin-top: 20px;
+}
+
+a {
+  display: inline-block;
+  border: 1px solid rgb(172, 172, 172);
+  text-decoration: none;
+  text-shadow: 1px 1px 18px white;
+  border-radius: 4px;
+  color: white;
+  background: rgb(11, 42, 71);
+  padding: 10px 30px 10px 30px;
+  margin: 15px;
+  -webkit-transition-duration: 0.2s; /* Safari */
+  transition-duration: 0.2s;
+}
+
+a:hover {
+  border: 1px solid rgb(20, 12, 0);
+  background:rgb(255, 155, 5);
+  color: black;
+  cursor: pointer;
+}
+
+.title {
+  width: 400px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 70px;
+  letter-spacing: 3px;
+  color: white;
+  text-shadow: 1px 1px 18px white;
+}
+
+.intro {
+  margin: 20px 0 20px 0;
+  padding: 10px;
+  font-size: 13px;
+  color: rgb(235, 235, 235);
+  text-align: center;
+}
+
+.intro h4 {
+  text-align: center;
+}
+
+.intro p {
+  display: inline-block;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 50%;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+}
+
+p.copyright {
+  position: relative;
+  top: 20px;
+  width: 100%;
+  color: #fff;
+  font-size: 0.7em;
+  text-align: center;
+}
+
+@media only screen and (max-width: 560px) {
+  .title {
+    width: 200px;
+    font-size: 40px;
+  }
+  .intro p {
+    width: 100%;
+  }
+}
