@@ -2,7 +2,7 @@
 This is a multiplayer online version of the traditional Japanese game Shiritori. I made it as I was learning and practicing Javascript.
 
 ## Technology
-This game makes use of API provided by Jisho.org to retrieve dictionary entries.
+This game makes use of API provided by [Jisho.org](https://jisho.org/) to retrieve dictionary entries.
 
 ## Rules
 General:
